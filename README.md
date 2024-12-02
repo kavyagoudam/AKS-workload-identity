@@ -5,7 +5,7 @@ ho# AKS-workload-identity
 ```sh
 # environment variables for the Azure Key Vault resource
 export AKS_NAME="aks-cluster"
-export KEYVAULT_NAME="azwi-kv-demo-013"
+export KEYVAULT_NAME="azwi-kv-demo-122"
 export KEYVAULT_SECRET_NAME="my-secret"
 export RESOURCE_GROUP="aks-wi-oidc"
 export LOCATION="westcentralus"
