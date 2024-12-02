@@ -23,7 +23,7 @@ export FICID="fic-test-fic-name"
 ```
 
 ```sh
-az account set --subscription 5c09efad-987e-4392-b86b-e27fddefe153
+az account set --subscription ******-******-*******-*****
 # create resource group and AKS clsuter with OIDC and Workload Identity enabled
 az group create --name ${RESOURCE_GROUP} --location ${LOCATION}
 az aks create -g ${RESOURCE_GROUP} -n ${AKS_NAME} \
