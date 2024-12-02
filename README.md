@@ -1,4 +1,4 @@
-# AKS-workload-identity
+ho# AKS-workload-identity
 
 # Worksload Identity with AKS
 
@@ -42,8 +42,7 @@ echo "${AKS_OIDC_ISSUER}"
 ```sh
 # create user assigned managed identity
 az identity create --name "${UAID}" --resource-group "${RESOURCE_GROUP}" \
-                   --location "${LOCATION}" \
-                   --subscription "${SUBSCRIPTION}"
+                   --location "${LOCATION}" 
 
 export USER_ASSIGNED_CLIENT_ID="$(az identity show --resource-group ${RESOURCE_GROUP} --name ${UAID} --query 'clientId' -otsv)"
 ```
